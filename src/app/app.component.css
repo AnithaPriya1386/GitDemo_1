@@ -1,0 +1,89 @@
+/* DO not change the style in this file */
+
+*{
+    font-weight: bold;
+ }
+td{
+    border:2px solid #f1d00f;	
+}
+table{
+    margin-left: 10px;
+    margin-right: auto;
+}
+input[type="email"],input[type="text"], input[type="number"],input[type="tel"],input[type="range"],input[type="file"],input[type="date"]{
+    width:97%;
+}
+select{
+    width:99%;
+}
+
+h2 {
+    text-align: "center";
+    color: #1969c4;
+    text-shadow: 2px 3px 5px #f1d00f;
+    margin-left: 40%;
+    margin-right: auto;
+}
+th {
+    color: #ffffff;
+    background-color: #f1d00f;
+    text-align: center;
+}
+td {
+    background-color: #ffffff;
+    width: 40%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 5px;
+}	 	  	  		    	   	 	   	 	
+#table1 {
+    width: 100%;
+    height: 78%;
+}
+#table2 {
+    width: 93%;
+    height: 78%;
+}
+#enroll {
+    background-color: #34495E;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #ffffff;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    top: 50px;
+    position: fixed;
+    z-index: 1;
+}
+#left {
+    left: 0;
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+#right {
+    right: 0;
+    left: 650px;
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}	 	  	  		    	   	 	   	 	
+#discountAmt {
+    color: #ec1d0e;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f4e176;
+}
+.fee {
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+<h2 id="title">TJoy SPORTS CLUB</h2>
+            <div class="split" id="left">
+                <table id="table1">
+                    <tr>
+                        <th id="heading1" colspan="2">Sports Registration Details</th>
+                    </tr>
+                    <tr>
+                        <td><label>Date of Registration</label></td>
+                        <td><input type="date" id="dateReg" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Name</label></td>
+                        <td><input type="text" id="pname" placeholder="Enter your name" pattern="[A-Za-z ]+" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Age</label></td>
+                        <td><input type="number" id="age" min="3" required placeholder="Enter your age"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Sports Type</label></td>
+                        <td>
+                            <input type="radio" id="indoor" name="sportsType" value="Indoor">Indoor
+                            <input type="radio" id="outdoor" name="sportsType" value="Outdoor">Outdoor
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Phone Number</label></td>
+                        <td><input type="tel" id="phNumber" pattern="[6-9]{1}[0-9]{9}" placeholder="Enter your phone number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="email" id="mail" placeholder="Enter your email id" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Address</label></td>
+                        <td><textarea id="location" rows="4" cols="50" required placeholder="Enter your address"></textarea></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="split" id="right">
+                <table id="table2">
+                    <tr>
+                        <th id="heading2">Select your Sports</th>  
+                        <th id="heading3">Duration</th>
+                        <th id="heading4">Fees</th>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" id="choice1" name="sports" value="Athletics">Athletics</td>
+            		    <td>6 months</td>
+            		    <td class="fee" id="f1">$260 </td>
+            	    </tr>
+            	    <tr>
+                    <td><input type="checkbox" id="choice2" name="sports" value="Cricket">Cricket</td>
+                    <td>3 months</td>
+                    <td class="fee" id="f2">$200 </td>
+                  </tr>
+            	    <tr>
+                    <td><input type="checkbox" id="choice3" name="sports" value="Basket Ball">Basket Ball</td>
+                        <td>3 months</td>
+                        <td class="fee" id="f3">$285</td>
+                    </tr>
+        	        <tr>
+                    <td><input type="checkbox" id="choice4" name="sports" value="Table Tennis">Table Tennis</td>
+                        <td>9 months</td>
+                        <td class="fee" id="f4">$350</td>
+                </tr> 
+    		        <tr>
+        	            <td id="discountAmt" colspan="3" title="Only for early birds">*EARLY BIRD OFFER OF $5 FOR THE FIRST 100 ENTRIES!!!</td>
+        	        </tr>            
+                </table><br/>
+                <input type="submit" value="ENROLL" id="enroll">
+            </div>
+	 	  	  	 			  	   	 	
